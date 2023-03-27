@@ -254,6 +254,9 @@ GEM
       rubocop (>= 0.53.0)
     ruby-progressbar (1.13.0)
     rubyzip (2.3.2)
+    seed-fu (2.3.9)
+      activerecord (>= 3.1)
+      activesupport (>= 3.1)
     selenium-webdriver (4.8.1)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
@@ -321,6 +324,7 @@ DEPENDENCIES
   rubocop-rails
   rubocop-rspec
   rubocop-thread_safety
+  seed-fu
   selenium-webdriver
   sprockets-rails
   stimulus-rails

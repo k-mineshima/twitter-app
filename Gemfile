@@ -71,6 +71,9 @@ group :development, :test do
 
   # random Japanese name and address generator
   gem 'gimei'
+
+  # Advanced seed data handling for Rails, combining the best practices of several methods together.
+  gem 'seed-fu'
 end
 
 group :development do
